@@ -18,7 +18,8 @@ ai_input_buffer = array_create(17, -1);
 ////////////////////////////////////////////////////
 //    ai_update.gml
 ////////////////////////////////////////////////////
-// input buffer indexes
+// input buffer indexes 
+// - IF YOU MODIFY THE ARRAY IN THE FUNCTION YOU MUST UPDATE THESE
 #macro INPB_ATTACK 0
 #macro INPB_SPECIAL 1
 #macro INPB_JUMP 2
